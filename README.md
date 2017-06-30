@@ -20,4 +20,4 @@ KRPopupview with animation effects.
 
 any issue. please contact me.
 
-E-mail: dengsir058@163.com
+E-mail: dengsir@goldenbeetech.com
