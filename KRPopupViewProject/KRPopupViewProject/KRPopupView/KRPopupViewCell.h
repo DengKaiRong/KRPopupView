@@ -11,15 +11,17 @@
 
 @protocol KRPopupViewCellDelegate <NSObject>
 
-@required
-//点击左按钮
-- (void)clickLeftButton:(KRPopupViewModel *)model index:(NSInteger)index;
-//点击右按钮
-- (void)clickRightButton:(KRPopupViewModel *)model index:(NSInteger)index;
+// 点击cell
+- (void)clickCell:(KRPopupViewModel *)model index:(NSInteger)index;
 
 @optional
-//点击cell
-- (void)clickCell:(KRPopupViewModel *)model index:(NSInteger)index;
+
+// 点击左按钮
+- (void)clickLeftButton:(KRPopupViewModel *)model index:(NSInteger)index;
+// 点击右按钮
+- (void)clickRightButton:(KRPopupViewModel *)model index:(NSInteger)index;
+
+// 更多点击回调事件可在这里拓展
 
 @end
 
