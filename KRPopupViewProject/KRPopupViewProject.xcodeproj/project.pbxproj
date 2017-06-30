@@ -1,0 +1,386 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C108D3A21F063A3C005C2502 /* comments.png in Resources */ = {isa = PBXBuildFile; fileRef = C108D39E1F063A3C005C2502 /* comments.png */; };
+		C108D3A31F063A3C005C2502 /* docments.png in Resources */ = {isa = PBXBuildFile; fileRef = C108D39F1F063A3C005C2502 /* docments.png */; };
+		C108D3A41F063A3C005C2502 /* globes.png in Resources */ = {isa = PBXBuildFile; fileRef = C108D3A01F063A3C005C2502 /* globes.png */; };
+		C108D3A51F063A3C005C2502 /* piechart.png in Resources */ = {isa = PBXBuildFile; fileRef = C108D3A11F063A3C005C2502 /* piechart.png */; };
+		C11B31D21E8CA9A9002D3900 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C11B31D11E8CA9A9002D3900 /* main.m */; };
+		C11B31D51E8CA9A9002D3900 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C11B31D41E8CA9A9002D3900 /* AppDelegate.m */; };
+		C11B31D81E8CA9A9002D3900 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C11B31D71E8CA9A9002D3900 /* ViewController.m */; };
+		C11B31DB1E8CA9A9002D3900 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C11B31D91E8CA9A9002D3900 /* Main.storyboard */; };
+		C11B31DD1E8CA9A9002D3900 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C11B31DC1E8CA9A9002D3900 /* Assets.xcassets */; };
+		C11B31E01E8CA9A9002D3900 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C11B31DE1E8CA9A9002D3900 /* LaunchScreen.storyboard */; };
+		C11B31EE1E8CB718002D3900 /* KRPopupView.m in Sources */ = {isa = PBXBuildFile; fileRef = C11B31ED1E8CB718002D3900 /* KRPopupView.m */; };
+		C11B31F11E8CB72E002D3900 /* KRPopupHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = C11B31F01E8CB72E002D3900 /* KRPopupHeaderView.m */; };
+		C11B31F71E8CB76D002D3900 /* KRPopupViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C11B31F61E8CB76D002D3900 /* KRPopupViewCell.m */; };
+		C11B32231E8D63D2002D3900 /* KRPopupHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C11B32221E8D63D2002D3900 /* KRPopupHeaderView.xib */; };
+		C11B32251E8D64B1002D3900 /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = C11B32241E8D64B1002D3900 /* back.png */; };
+		C11B32271E8D6595002D3900 /* KRPopupViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C11B32261E8D6595002D3900 /* KRPopupViewCell.xib */; };
+		C11B32321E8D8160002D3900 /* KRPopupViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C11B32311E8D8160002D3900 /* KRPopupViewModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C108D39E1F063A3C005C2502 /* comments.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = comments.png; sourceTree = "<group>"; };
+		C108D39F1F063A3C005C2502 /* docments.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = docments.png; sourceTree = "<group>"; };
+		C108D3A01F063A3C005C2502 /* globes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = globes.png; sourceTree = "<group>"; };
+		C108D3A11F063A3C005C2502 /* piechart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = piechart.png; sourceTree = "<group>"; };
+		C11B31CD1E8CA9A9002D3900 /* KRPopupViewProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KRPopupViewProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C11B31D11E8CA9A9002D3900 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C11B31D31E8CA9A9002D3900 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C11B31D41E8CA9A9002D3900 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C11B31D61E8CA9A9002D3900 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C11B31D71E8CA9A9002D3900 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C11B31DA1E8CA9A9002D3900 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C11B31DC1E8CA9A9002D3900 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C11B31DF1E8CA9A9002D3900 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C11B31E11E8CA9A9002D3900 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C11B31EC1E8CB718002D3900 /* KRPopupView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KRPopupView.h; sourceTree = "<group>"; };
+		C11B31ED1E8CB718002D3900 /* KRPopupView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KRPopupView.m; sourceTree = "<group>"; };
+		C11B31EF1E8CB72E002D3900 /* KRPopupHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KRPopupHeaderView.h; sourceTree = "<group>"; };
+		C11B31F01E8CB72E002D3900 /* KRPopupHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KRPopupHeaderView.m; sourceTree = "<group>"; };
+		C11B31F51E8CB76D002D3900 /* KRPopupViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KRPopupViewCell.h; sourceTree = "<group>"; };
+		C11B31F61E8CB76D002D3900 /* KRPopupViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KRPopupViewCell.m; sourceTree = "<group>"; };
+		C11B32221E8D63D2002D3900 /* KRPopupHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KRPopupHeaderView.xib; sourceTree = "<group>"; };
+		C11B32241E8D64B1002D3900 /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
+		C11B32261E8D6595002D3900 /* KRPopupViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KRPopupViewCell.xib; sourceTree = "<group>"; };
+		C11B32301E8D8160002D3900 /* KRPopupViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KRPopupViewModel.h; sourceTree = "<group>"; };
+		C11B32311E8D8160002D3900 /* KRPopupViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KRPopupViewModel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C11B31CA1E8CA9A9002D3900 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C108D3A61F063A45005C2502 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				C108D39E1F063A3C005C2502 /* comments.png */,
+				C108D39F1F063A3C005C2502 /* docments.png */,
+				C108D3A01F063A3C005C2502 /* globes.png */,
+				C108D3A11F063A3C005C2502 /* piechart.png */,
+			);
+			name = image;
+			sourceTree = "<group>";
+		};
+		C11B31C41E8CA9A9002D3900 = {
+			isa = PBXGroup;
+			children = (
+				C11B31CF1E8CA9A9002D3900 /* KRPopupViewProject */,
+				C11B31CE1E8CA9A9002D3900 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C11B31CE1E8CA9A9002D3900 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C11B31CD1E8CA9A9002D3900 /* KRPopupViewProject.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C11B31CF1E8CA9A9002D3900 /* KRPopupViewProject */ = {
+			isa = PBXGroup;
+			children = (
+				C11B31EB1E8CB5E5002D3900 /* KRPopupView */,
+				C11B31D31E8CA9A9002D3900 /* AppDelegate.h */,
+				C11B31D41E8CA9A9002D3900 /* AppDelegate.m */,
+				C11B31D61E8CA9A9002D3900 /* ViewController.h */,
+				C11B31D71E8CA9A9002D3900 /* ViewController.m */,
+				C108D3A61F063A45005C2502 /* image */,
+				C11B31D91E8CA9A9002D3900 /* Main.storyboard */,
+				C11B31DC1E8CA9A9002D3900 /* Assets.xcassets */,
+				C11B31DE1E8CA9A9002D3900 /* LaunchScreen.storyboard */,
+				C11B31E11E8CA9A9002D3900 /* Info.plist */,
+				C11B31D01E8CA9A9002D3900 /* Supporting Files */,
+			);
+			path = KRPopupViewProject;
+			sourceTree = "<group>";
+		};
+		C11B31D01E8CA9A9002D3900 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C11B31D11E8CA9A9002D3900 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C11B31EB1E8CB5E5002D3900 /* KRPopupView */ = {
+			isa = PBXGroup;
+			children = (
+				C11B32241E8D64B1002D3900 /* back.png */,
+				C11B31EC1E8CB718002D3900 /* KRPopupView.h */,
+				C11B31ED1E8CB718002D3900 /* KRPopupView.m */,
+				C11B32301E8D8160002D3900 /* KRPopupViewModel.h */,
+				C11B32311E8D8160002D3900 /* KRPopupViewModel.m */,
+				C11B31EF1E8CB72E002D3900 /* KRPopupHeaderView.h */,
+				C11B31F01E8CB72E002D3900 /* KRPopupHeaderView.m */,
+				C11B32221E8D63D2002D3900 /* KRPopupHeaderView.xib */,
+				C11B31F51E8CB76D002D3900 /* KRPopupViewCell.h */,
+				C11B31F61E8CB76D002D3900 /* KRPopupViewCell.m */,
+				C11B32261E8D6595002D3900 /* KRPopupViewCell.xib */,
+			);
+			path = KRPopupView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C11B31CC1E8CA9A9002D3900 /* KRPopupViewProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C11B31E41E8CA9A9002D3900 /* Build configuration list for PBXNativeTarget "KRPopupViewProject" */;
+			buildPhases = (
+				C11B31C91E8CA9A9002D3900 /* Sources */,
+				C11B31CA1E8CA9A9002D3900 /* Frameworks */,
+				C11B31CB1E8CA9A9002D3900 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KRPopupViewProject;
+			productName = KRPopupViewProject;
+			productReference = C11B31CD1E8CA9A9002D3900 /* KRPopupViewProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C11B31C51E8CA9A9002D3900 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = dengsir;
+				TargetAttributes = {
+					C11B31CC1E8CA9A9002D3900 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = M74P9NKZYT;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C11B31C81E8CA9A9002D3900 /* Build configuration list for PBXProject "KRPopupViewProject" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C11B31C41E8CA9A9002D3900;
+			productRefGroup = C11B31CE1E8CA9A9002D3900 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C11B31CC1E8CA9A9002D3900 /* KRPopupViewProject */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C11B31CB1E8CA9A9002D3900 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C11B32271E8D6595002D3900 /* KRPopupViewCell.xib in Resources */,
+				C11B31E01E8CA9A9002D3900 /* LaunchScreen.storyboard in Resources */,
+				C11B32251E8D64B1002D3900 /* back.png in Resources */,
+				C11B31DD1E8CA9A9002D3900 /* Assets.xcassets in Resources */,
+				C108D3A31F063A3C005C2502 /* docments.png in Resources */,
+				C108D3A51F063A3C005C2502 /* piechart.png in Resources */,
+				C108D3A41F063A3C005C2502 /* globes.png in Resources */,
+				C11B31DB1E8CA9A9002D3900 /* Main.storyboard in Resources */,
+				C108D3A21F063A3C005C2502 /* comments.png in Resources */,
+				C11B32231E8D63D2002D3900 /* KRPopupHeaderView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C11B31C91E8CA9A9002D3900 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C11B31F71E8CB76D002D3900 /* KRPopupViewCell.m in Sources */,
+				C11B31EE1E8CB718002D3900 /* KRPopupView.m in Sources */,
+				C11B31D81E8CA9A9002D3900 /* ViewController.m in Sources */,
+				C11B31D51E8CA9A9002D3900 /* AppDelegate.m in Sources */,
+				C11B31D21E8CA9A9002D3900 /* main.m in Sources */,
+				C11B31F11E8CB72E002D3900 /* KRPopupHeaderView.m in Sources */,
+				C11B32321E8D8160002D3900 /* KRPopupViewModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C11B31D91E8CA9A9002D3900 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C11B31DA1E8CA9A9002D3900 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C11B31DE1E8CA9A9002D3900 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C11B31DF1E8CA9A9002D3900 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C11B31E21E8CA9A9002D3900 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C11B31E31E8CA9A9002D3900 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C11B31E51E8CA9A9002D3900 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = M74P9NKZYT;
+				INFOPLIST_FILE = KRPopupViewProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dengsir.com;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C11B31E61E8CA9A9002D3900 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = M74P9NKZYT;
+				INFOPLIST_FILE = KRPopupViewProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dengsir.com;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C11B31C81E8CA9A9002D3900 /* Build configuration list for PBXProject "KRPopupViewProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C11B31E21E8CA9A9002D3900 /* Debug */,
+				C11B31E31E8CA9A9002D3900 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C11B31E41E8CA9A9002D3900 /* Build configuration list for PBXNativeTarget "KRPopupViewProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C11B31E51E8CA9A9002D3900 /* Debug */,
+				C11B31E61E8CA9A9002D3900 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C11B31C51E8CA9A9002D3900 /* Project object */;
+}

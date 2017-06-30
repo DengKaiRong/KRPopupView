@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="KRPopupViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="516" height="130"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="piechart.png" translatesAutoresizingMaskIntoConstraints="NO" id="gOj-gh-LXF">
+                    <rect key="frame" x="10" y="15" width="100" height="100"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="100" id="9Dl-O9-udM"/>
+                        <constraint firstAttribute="height" constant="100" id="F8i-Bp-8s0"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Piechart" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tJC-wF-iAr">
+                    <rect key="frame" x="125" y="8" width="81" height="24"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vsV-vE-Xht">
+                    <rect key="frame" x="125" y="32" width="383" height="16"/>
+                    <fontDescription key="fontDescription" type="system" weight="light" pointSize="13"/>
+                    <color key="textColor" red="0.69796198606491089" green="0.69808381795883179" blue="0.69795435667037964" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GqY-rb-BnX">
+                    <rect key="frame" x="431" y="97" width="70" height="25"/>
+                    <color key="backgroundColor" red="0.32855260372161865" green="0.59480053186416626" blue="0.86064392328262329" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="25" id="W8S-rZ-6H9"/>
+                        <constraint firstAttribute="width" constant="70" id="o23-Jq-GMR"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                    <state key="normal" title="DETAILS">
+                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <real key="value" value="12.5"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="rightBtClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="MBS-WP-RFs"/>
+                    </connections>
+                </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eas-Ws-NRE">
+                    <rect key="frame" x="0.0" y="129.5" width="516" height="0.5"/>
+                    <color key="backgroundColor" red="0.6430411935" green="0.64303153749999997" blue="0.65122109650000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="0.5" id="Y33-tb-xTp"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XgF-nN-eXi">
+                    <rect key="frame" x="351" y="97" width="70" height="25"/>
+                    <color key="backgroundColor" red="0.56101548671722412" green="0.83844083547592163" blue="0.22908908128738403" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                    <state key="normal" title="INSTALL">
+                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <real key="value" value="12.5"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="leftBtClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="sOm-Sb-z7p"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <gestureRecognizers/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="eas-Ws-NRE" secondAttribute="bottom" id="3Ca-nO-y5g"/>
+                <constraint firstItem="GqY-rb-BnX" firstAttribute="leading" secondItem="XgF-nN-eXi" secondAttribute="trailing" constant="10" id="8dO-Ct-BR7"/>
+                <constraint firstItem="tJC-wF-iAr" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="8" id="8jd-ik-r4E"/>
+                <constraint firstItem="XgF-nN-eXi" firstAttribute="height" secondItem="GqY-rb-BnX" secondAttribute="height" id="9ou-6L-76G"/>
+                <constraint firstAttribute="trailing" secondItem="vsV-vE-Xht" secondAttribute="trailing" constant="8" id="ABa-2F-7yD"/>
+                <constraint firstItem="gOj-gh-LXF" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="10" id="NJS-d1-H8h"/>
+                <constraint firstItem="vsV-vE-Xht" firstAttribute="leading" secondItem="gOj-gh-LXF" secondAttribute="trailing" constant="15" id="NzO-yx-srZ"/>
+                <constraint firstItem="vsV-vE-Xht" firstAttribute="top" secondItem="tJC-wF-iAr" secondAttribute="bottom" id="OXU-c8-dKq"/>
+                <constraint firstItem="gOj-gh-LXF" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="b24-BP-UKS"/>
+                <constraint firstItem="XgF-nN-eXi" firstAttribute="width" secondItem="GqY-rb-BnX" secondAttribute="width" id="fKz-pd-PVk"/>
+                <constraint firstAttribute="trailing" secondItem="GqY-rb-BnX" secondAttribute="trailing" constant="15" id="ln1-h7-uc2"/>
+                <constraint firstAttribute="bottom" secondItem="GqY-rb-BnX" secondAttribute="bottom" constant="8" id="q2i-vG-gnk"/>
+                <constraint firstAttribute="bottom" secondItem="XgF-nN-eXi" secondAttribute="bottom" constant="8" id="qCx-wD-bPC"/>
+                <constraint firstAttribute="trailing" secondItem="eas-Ws-NRE" secondAttribute="trailing" id="uLV-PA-rcf"/>
+                <constraint firstItem="tJC-wF-iAr" firstAttribute="leading" secondItem="gOj-gh-LXF" secondAttribute="trailing" constant="15" id="wL1-yg-M1d"/>
+                <constraint firstItem="eas-Ws-NRE" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="zrV-E0-QLg"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="contentLabel" destination="vsV-vE-Xht" id="VaX-Pv-MyB"/>
+                <outlet property="imageView" destination="gOj-gh-LXF" id="yLo-MN-Khl"/>
+                <outlet property="leftBt" destination="XgF-nN-eXi" id="pQa-Wd-zh1"/>
+                <outlet property="rightBt" destination="GqY-rb-BnX" id="PEB-fG-mAE"/>
+                <outlet property="titleLabel" destination="tJC-wF-iAr" id="Eem-Ka-AJZ"/>
+                <outletCollection property="gestureRecognizers" destination="JFg-O6-UnZ" appends="YES" id="5uq-fG-rXo"/>
+            </connections>
+            <point key="canvasLocation" x="94" y="-162"/>
+        </view>
+        <tapGestureRecognizer id="JFg-O6-UnZ">
+            <connections>
+                <action selector="clickCell:" destination="iN0-l3-epB" id="QlF-50-u44"/>
+            </connections>
+        </tapGestureRecognizer>
+    </objects>
+    <resources>
+        <image name="piechart.png" width="200" height="198"/>
+    </resources>
+</document>
