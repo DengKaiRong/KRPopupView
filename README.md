@@ -5,7 +5,7 @@ KRPopupview with animation effects.
 
 # Effects
 
-
+![效果](https://github.com/DengKaiRong/KRPopupView/blob/master/effect.gif)
 
 # Use
 
